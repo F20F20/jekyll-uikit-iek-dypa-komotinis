@@ -1,0 +1,41 @@
+---
+layout: post
+---
+
+
+
+
+<ul class="uk-list uk-list-striped" style="text-align:center;">
+    {% for post in paginator.posts %}
+	<li><a href="{{post.url | prepend: site.baseurl}}"><p class="uk-text-lead">{{post.title}}</p></a><p class="uk-text-meta">Ημερομηνία Δημοσίευσης: {{post.date | date: '%d/%m/%Y'}} </p></li>
+	{% endfor %}
+</ul>
+
+
+
+
+<div id="pagicontainer" style="text-align:center; float:middle">
+
+{% if paginator.total_pages > 1 %}
+
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Προηγούμενη Σελίδα</a>
+  {% else %}
+    <span>&laquo; Προηγούμενη Σελίδα </span>
+  {% endif %}
+  
+  
+  
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> Επόμενη Σελίδα &raquo;</a>
+  {% else %}
+    <span>Επόμενη Σελίδα &raquo;</span>
+  {% endif %}
+
+{% endif %}
+
+
+</div>
+
+
