@@ -1,8 +1,8 @@
-url: "https://f20f20.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/jekyll-uikit-iek-dypa-komotinis/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 title: "ΙΕΚ ΔΥΠΑ ΚΟΜΟΤΗΝΗΣ" # the name of your site, e.g. ACME Corp.
 
 
 plugins: [jekyll-paginate]
 paginate: 6
-paginate_path: jekyll-uikit-iek-dypa-komotinis/news/page:num/
+paginate_path: /news/page:num/
