@@ -5,4 +5,4 @@ title: "ΙΕΚ ΔΥΠΑ ΚΟΜΟΤΗΝΗΣ" # the name of your site, e.g. ACME C
 
 plugins: [jekyll-paginate]
 paginate: 6
-paginate_path: /news/page:num/
+paginate_path: jekyll-uikit-iek-dypa-komotinis/news/page:num/
