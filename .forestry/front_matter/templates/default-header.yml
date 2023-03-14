@@ -11,3 +11,5 @@ fields:
     schema:
       format: markdown
   label: Default Post Header
+pages:
+- _posts/2023-03-13.md
