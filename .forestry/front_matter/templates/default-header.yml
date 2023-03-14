@@ -1,4 +1,14 @@
 ---
 label: Default Header
 hide_body: true
-fields: []
+fields:
+- name: default_post_header
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Default Post Header
+  description: "---<br>layout: post<br>title: <br>---"
