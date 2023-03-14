@@ -9,7 +9,7 @@
 		 {% for post in site.posts limit:6 %}
 		
 				<div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
-				<h3 class="uk-card-title"><a href="{{ site.baseurl }} {{ post.url }}"> <p class="uk-text-lead">{{ post.title }}</p></a></h3>
+				<h3 class="uk-card-title"><a href="{{ site.baseurl }} / {{ post.url }}"> <p class="uk-text-lead">{{ post.title }}</p></a></h3>
 				<p class="uk-text-meta">{{ post.content | strip_html | truncatewords: 50 }} </p>
 				<p class="uk-text-meta">Ημερομηνία Δημοσίευσης: {{post.date | date: '%d/%m/%Y'}} </p>
 				</div>
