@@ -1,4 +1,4 @@
 ---
 label: Default Post Layout
-hide_body: false
+hide_body: true
 fields: []
