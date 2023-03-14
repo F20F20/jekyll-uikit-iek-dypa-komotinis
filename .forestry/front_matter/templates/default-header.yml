@@ -4,11 +4,10 @@ hide_body: true
 fields:
 - name: default_post_header
   type: textarea
-  default: ''
+  default: "\\---  \nlayout: post  \ntitle:   \n\\---"
   config:
     required: false
     wysiwyg: true
     schema:
       format: markdown
   label: Default Post Header
-  description: "---<br>layout: post<br>title: <br>---"
