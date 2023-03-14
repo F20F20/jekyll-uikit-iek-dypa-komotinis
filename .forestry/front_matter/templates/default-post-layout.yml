@@ -1,10 +1,4 @@
 ---
 label: Default Post Layout
 hide_body: false
-fields:
-- name: default_text_for_post
-  type: include
-  config: {}
-  template: default-post-layout
-  label: default text for post
-  description: "---<br>layout: post<br>title: <br>---"
+fields: []
