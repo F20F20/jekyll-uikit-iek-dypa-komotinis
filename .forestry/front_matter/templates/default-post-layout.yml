@@ -2,13 +2,9 @@
 label: Default Post Layout
 hide_body: false
 fields:
-- name: default_post_header
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: default post header
+- name: default_text_for_post
+  type: include
+  config: {}
+  template: default-post-layout
+  label: default text for post
   description: "---<br>layout: post<br>title: <br>---"
