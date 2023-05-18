@@ -26,5 +26,5 @@ title: Διαφημιστικό φυλλάδιο και ειδικότητες �
  
  
  
- <a class="uk-button uk-button-primary" href="/pdf_files/2023-05-Fylladioidikothtes.pdf" target="_blank">Φυλλάδιο 1</a>
- <a class="uk-button uk-button-primary" href="/pdf_files/2023-05-FylladioidikothtesCropmarks.pdf" target="_blank">Φυλλάδιο 2</a>
+ <a class="uk-button uk-button-primary" href="{{ site.baseurl }}/pdf_files/2023-05-Fylladioidikothtes.pdf" target="_blank">Φυλλάδιο 1</a>
+ <a class="uk-button uk-button-primary" href="{{ site.baseurl }}/pdf_files/2023-05-FylladioidikothtesCropmarks.pdf" target="_blank">Φυλλάδιο 2</a>
