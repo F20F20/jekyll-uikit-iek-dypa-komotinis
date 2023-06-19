@@ -6,12 +6,10 @@ title: Γιορτή της Μητέρας
 Συμμετείχε το τμήμα Βοηθός Βρεφονηπιοκόμων του **ΙΕΚ ΔΥΠΑ Κομοτηνής**
 
 
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
 
-
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
-
-    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-        <li>
+    <ul class="uk-slideshow-items">
+       <li>
             <img src="{{ site.baseurl }}/img/img_posts/aksizw_1.webp" width="400" height="600" alt="">
         </li>
         <li>
@@ -42,9 +40,12 @@ title: Γιορτή της Μητέρας
             <img src="{{ site.baseurl }}/img/img_posts/aksizw_10.webp" width="400" height="600" alt="">
             
         </li>
+
+
+
     </ul>
 
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
 </div>
