@@ -49,3 +49,16 @@ title: Γιορτή της Μητέρας
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
 </div>
+
+
+
+<div uk-slideshow>
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="{{ site.baseurl }}/img/img_posts/aksizw_1.webp" alt="" uk-cover>
+        </li>
+         <li>
+            <img src="{{ site.baseurl }}/img/img_posts/aksizw_2.webp" alt="" uk-cover>
+        </li>
+    </ul>
+</div>
